@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<title>Loading</title>
+</head>
+<body class="bg-dark">
+
+	<audio id="opening">
+		<source src="./assets/music/opening.ogg" type="audio/ogg">
+	</audio>
+
+	<audio id="loading">
+		<source src="./assets/music/loading.mp3" type="audio/mp3">
+	</audio>
+
+	<div id="main">
+		<button id="btn-opening-start" class="btn btn-menu center-screen">
+			Click this to start.
+		</button>
+
+		<div class="main-menu-opening">
+
+			<div class="center-screen">
+				<img id="gta-iv-logo">
+			</div>
+
+		</div>
+
+		<img id="main-menu-background">
+		
+		<div class="main-menu hidden">
+
+			<div class="menu-char">
+				<img width="80%" src="./assets/images/stef.png">
+			</div>
+
+			<div class="menu-logo">
+				<img width="50%" src="./assets/images/gta-iv-logo.png">
+			</div>
+
+			<div class="footer">
+				
+				<!-- Start -->
+				<button id="btn-start" class="btn btn-menu">
+					Start
+				</button>
+
+				<!-- Options -->
+				<button class="btn btn-menu">
+					Options
+				</button>
+
+				<!-- Live -->
+				<button class="btn btn-menu">
+					Live
+				</button>
+
+				<!-- Live -->
+				<button class="btn btn-menu btn-live-marketplace">
+					Live Marketplace
+				</button>
+
+				<!-- Quit -->
+				<button class="btn btn-menu">
+					Quit
+				</button>
+
+			</div>
+		</div>
+
+		<div class="loading-screen hidden">
+			<img id="loading-screen-char">
+		</div>
+	</div>
+
+	
+
+	<script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>

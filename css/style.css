@@ -1,0 +1,76 @@
+* {
+	font-family: 'Cantarell', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.bg-dark {
+	background-color: #000;
+}
+
+.center-screen {
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.center-screen img {
+	width: 32em;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+
+.hidden {
+	display: none;
+}
+
+.btn {
+	margin: 0.5em;
+}
+
+.btn-menu {
+	background-color: transparent;
+	border-color: transparent;
+	font-size: 1.5em;
+	color: darkgray;
+}
+
+.btn-menu:hover {
+	color: white;
+}
+
+.btn-live-marketplace {
+	color: darkorange;
+}
+
+.btn-live-marketplace:hover {
+	color: orange;
+}
+
+.menu-char img {
+	position: fixed;
+  	top: 0%;
+  	left: -10%;
+}
+
+.menu-logo {
+	position: fixed;
+  	top: 70%;
+  	left: 45%;
+  	transform: translate(-50%, -50%);
+}
